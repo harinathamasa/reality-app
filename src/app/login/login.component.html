@@ -1,0 +1,14 @@
+<div class="col-6">
+<h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
+<form #f="ngForm" (ngSubmit)="loginToEvent(f.value)">
+    <div class="form-group">
+      <input type="text" class="form-control" id="event" ngModel name="event" #event="ngModel" placeholder="Enter Event Name" required>
+      <div class="alert alert-danger" *ngIf="event.touched && event.invalid">Event name is required.</div>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" ngModel id="eventPassword" #eventPassword="ngModel" name="eventPassword" placeholder="Password" required>
+      <div class="alert alert-danger" *ngIf="eventPassword.touched && eventPassword.invalid">Password is required.</div>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!f.valid">Submit</button>
+  </form>
+</div>
