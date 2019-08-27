@@ -1,0 +1,466 @@
+[
+ {
+   "Occupation": "Financial Services Relationship Manager",
+   "Annual Income": 67550,
+   "Net Monthly Income": 3960,
+   "Marital Status": "Married",
+   "Children": 3,
+   "Credit Score": 600
+ },
+ {
+   "Occupation": "Retail Sales Clerk",
+   "Annual Income": 19000,
+   "Net Monthly Income": 1113,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 655
+ },
+ {
+   "Occupation": "Chemical Plant Operator",
+   "Annual Income": 44628,
+   "Net Monthly Income": 2616,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 620
+ },
+ {
+   "Occupation": "Recreation Worker",
+   "Annual Income": 24000,
+   "Net Monthly Income": 1407,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 720
+ },
+ {
+   "Occupation": "Child Care Provider",
+   "Annual Income": 18000,
+   "Net Monthly Income": 1055,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 710
+ },
+ {
+   "Occupation": "Cook",
+   "Annual Income": 22000,
+   "Net Monthly Income": 1833,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 700
+ },
+ {
+   "Occupation": "Waiter/Waitress",
+   "Annual Income": 19000,
+   "Net Monthly Income": 1113,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 601
+ },
+ {
+   "Occupation": "Painter",
+   "Annual Income": 55855,
+   "Net Monthly Income": 3117,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 580
+ },
+ {
+   "Occupation": "Painter",
+   "Annual Income": 55855,
+   "Net Monthly Income": 3117,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 580
+ },
+ {
+   "Occupation": "Attorney",
+   "Annual Income": 77531,
+   "Net Monthly Income": 4923,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 650
+ },
+ {
+   "Occupation": "Registered Nurse",
+   "Annual Income": 52784,
+   "Net Monthly Income": 3723,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 440
+ },
+ {
+   "Occupation": "Mechanical Engineer",
+   "Annual Income": 66995,
+   "Net Monthly Income": 4416,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Teacher",
+   "Annual Income": 47014,
+   "Net Monthly Income": 2917,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 650
+ },
+ {
+   "Occupation": "Software Engineer",
+   "Annual Income": 100517,
+   "Net Monthly Income": 5612,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 700
+ },
+ {
+   "Occupation": "Dishwasher",
+   "Annual Income": 18930,
+   "Net Monthly Income": 1274,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 450
+ },
+ {
+   "Occupation": "Bank Teller",
+   "Annual Income": 27200,
+   "Net Monthly Income": 1767,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Barber/Cosmetologist",
+   "Annual Income": 29840,
+   "Net Monthly Income": 1924,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 450
+ },
+ {
+   "Occupation": "Air Traffic Control",
+   "Annual Income": 158960,
+   "Net Monthly Income": 8556,
+   "Marital Status": "Married",
+   "Children": 3,
+   "Credit Score": 640
+ },
+ {
+   "Occupation": "CEO",
+   "Annual Income": 180700,
+   "Net Monthly Income": 9686,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 720
+ },
+ {
+   "Occupation": "Lawyer",
+   "Annual Income": 172000,
+   "Net Monthly Income": 9234,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 640
+ },
+ {
+   "Occupation": "Child Care Provider",
+   "Annual Income": 18000,
+   "Net Monthly Income": 1055,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 710
+ },
+ {
+   "Occupation": "Child Care Provider",
+   "Annual Income": 18000,
+   "Net Monthly Income": 1055,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 710
+ },
+ {
+   "Occupation": "Retail Sales Clerk",
+   "Annual Income": 19000,
+   "Net Monthly Income": 1113,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 655
+ },
+ {
+   "Occupation": "Retail Sales Clerk",
+   "Annual Income": 19000,
+   "Net Monthly Income": 1113,
+   "Marital Status": "Single",
+   "Children": 3,
+   "Credit Score": 655
+ },
+ {
+   "Occupation": "Cook",
+   "Annual Income": 22000,
+   "Net Monthly Income": 1833,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 700
+ },
+ {
+   "Occupation": "Cook",
+   "Annual Income": 22000,
+   "Net Monthly Income": 1833,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 700
+ },
+ {
+   "Occupation": "Waiter/Waitress",
+   "Annual Income": 19000,
+   "Net Monthly Income": 1113,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 601
+ },
+ {
+   "Occupation": "Waiter/Waitress",
+   "Annual Income": 19000,
+   "Net Monthly Income": 1113,
+   "Marital Status": "Single",
+   "Children": 1,
+   "Credit Score": 601
+ },
+ {
+   "Occupation": "Dishwasher",
+   "Annual Income": 18930,
+   "Net Monthly Income": 1274,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Dishwasher",
+   "Annual Income": 18930,
+   "Net Monthly Income": 1274,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Bank Teller",
+   "Annual Income": 27200,
+   "Net Monthly Income": 1767,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Bank Teller",
+   "Annual Income": 27200,
+   "Net Monthly Income": 1767,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Barber/Cosmetologist",
+   "Annual Income": 29840,
+   "Net Monthly Income": 1924,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 550
+ },
+ {
+   "Occupation": "Barber/Cosmetologist",
+   "Annual Income": 29840,
+   "Net Monthly Income": 1924,
+   "Marital Status": "Single",
+   "Children": 1,
+   "Credit Score": 450
+ },
+ {
+   "Occupation": "Recreation Worker",
+   "Annual Income": 24000,
+   "Net Monthly Income": 1407,
+   "Marital Status": "Single",
+   "Children": 3,
+   "Credit Score": 720
+ },
+ {
+   "Occupation": "Recreation Worker",
+   "Annual Income": 24000,
+   "Net Monthly Income": 1407,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 720
+ },
+ {
+   "Occupation": "Financial Services Relationship Manager",
+   "Annual Income": 67550,
+   "Net Monthly Income": 3960,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 600
+ },
+ {
+   "Occupation": "Financial Services Relationship Manager",
+   "Annual Income": 67550,
+   "Net Monthly Income": 3960,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 600
+ },
+ {
+   "Occupation": "Attorney",
+   "Annual Income": 77531,
+   "Net Monthly Income": 4923,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 650
+ },
+ {
+   "Occupation": "Attorney",
+   "Annual Income": 77531,
+   "Net Monthly Income": 4923,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 650
+ },
+ {
+   "Occupation": "Chemical Plant Operator",
+   "Annual Income": 44628,
+   "Net Monthly Income": 2616,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 620
+ },
+ {
+   "Occupation": "Chemical Plant Operator",
+   "Annual Income": 44628,
+   "Net Monthly Income": 2616,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 620
+ },
+ {
+   "Occupation": "Mechanical Engineer",
+   "Annual Income": 66995,
+   "Net Monthly Income": 4416,
+   "Marital Status": "Single",
+   "Children": 1,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Mechanical Engineer",
+   "Annual Income": 66995,
+   "Net Monthly Income": 4416,
+   "Marital Status": "Married",
+   "Children": 1,
+   "Credit Score": 500
+ },
+ {
+   "Occupation": "Painter",
+   "Annual Income": 55855,
+   "Net Monthly Income": 3117,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 580
+ },
+ {
+   "Occupation": "Painter",
+   "Annual Income": 55855,
+   "Net Monthly Income": 3117,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 580
+ },
+ {
+   "Occupation": "Registered Nurse",
+   "Annual Income": 52784,
+   "Net Monthly Income": 3723,
+   "Marital Status": "Married",
+   "Children": 3,
+   "Credit Score": 540
+ },
+ {
+   "Occupation": "Registered Nurse",
+   "Annual Income": 53784,
+   "Net Monthly Income": 3723,
+   "Marital Status": "Single",
+   "Children": 2,
+   "Credit Score": 440
+ },
+ {
+   "Occupation": "Teacher",
+   "Annual Income": 47014,
+   "Net Monthly Income": 2917,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 650
+ },
+ {
+   "Occupation": "Teacher",
+   "Annual Income": 47014,
+   "Net Monthly Income": 2917,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 650
+ },
+ {
+   "Occupation": "Software Engineer",
+   "Annual Income": 100517,
+   "Net Monthly Income": 5612,
+   "Marital Status": "Single",
+   "Children": 1,
+   "Credit Score": 700
+ },
+ {
+   "Occupation": "Air Traffic Control",
+   "Annual Income": 158960,
+   "Net Monthly Income": 8556,
+   "Marital Status": "Married",
+   "Children": 3,
+   "Credit Score": 640
+ },
+ {
+   "Occupation": "CEO",
+   "Annual Income": 180700,
+   "Net Monthly Income": 9689,
+   "Marital Status": "Single",
+   "Children": 3,
+   "Credit Score": 720
+ },
+ {
+   "Occupation": "Lawyer",
+   "Annual Income": 172000,
+   "Net Monthly Income": 9234,
+   "Marital Status": "Single",
+   "Children": 0,
+   "Credit Score": 640
+ },
+ {
+   "Occupation": "Software Engineer",
+   "Annual Income": 100517,
+   "Net Monthly Income": 5612,
+   "Marital Status": "Single",
+   "Children": 1,
+   "Credit Score": 700
+ },
+ {
+   "Occupation": "Air Traffic Control",
+   "Annual Income": 158960,
+   "Net Monthly Income": 8556,
+   "Marital Status": "Single",
+   "Children": 3,
+   "Credit Score": 640
+ },
+ {
+   "Occupation": "CEO",
+   "Annual Income": 180700,
+   "Net Monthly Income": 9686,
+   "Marital Status": "Married",
+   "Children": 3,
+   "Credit Score": 720
+ },
+ {
+   "Occupation": "Air Traffic Control",
+   "Annual Income": 158960,
+   "Net Monthly Income": 8556,
+   "Marital Status": "Married",
+   "Children": 2,
+   "Credit Score": 640
+ }
+]

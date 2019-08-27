@@ -1,0 +1,32 @@
+[
+ {
+   "Family Size": "Single",
+   "Option": "Local Bus Pass",
+   "Monthly Cost": 62
+ },
+ {
+   "Family Size": "Single",
+   "Option": "Express Pass",
+   "Monthly Cost": 85
+ },
+ {
+   "Family Size": "Single",
+   "Option": "Train Pass",
+   "Monthly Cost": 100
+ },
+ {
+   "Family Size": "Family",
+   "Option": "Local Bus Pass",
+   "Monthly Cost": 124
+ },
+ {
+   "Family Size": "Family",
+   "Option": "Express Pass",
+   "Monthly Cost": 170
+ },
+ {
+   "Family Size": "Family",
+   "Option": "Train Pass",
+   "Monthly Cost": 200
+ }
+]

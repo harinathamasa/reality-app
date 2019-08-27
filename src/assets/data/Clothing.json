@@ -1,0 +1,74 @@
+[
+ {
+   "Net Monthly Income": "$4,000 - $50,000",
+   "Thrift Store": "$120 ",
+   "Department Store": "$350 ",
+   "Designer": "$660 "
+ },
+ {
+   "Net Monthly Income": "$3,800 - $3,999",
+   "Thrift Store": "$110 ",
+   "Department Store": "$310 ",
+   "Designer": "$410 "
+ },
+ {
+   "Net Monthly Income": "$3,600 - $3,799",
+   "Thrift Store": "$100 ",
+   "Department Store": "$240 ",
+   "Designer": "$390 "
+ },
+ {
+   "Net Monthly Income": "$3,400 - $3,599",
+   "Thrift Store": "$95 ",
+   "Department Store": "$235 ",
+   "Designer": "$360 "
+ },
+ {
+   "Net Monthly Income": "$3,100 - $3,399",
+   "Thrift Store": "$90 ",
+   "Department Store": "$230 ",
+   "Designer": "$330 "
+ },
+ {
+   "Net Monthly Income": "$2,800 - $3,099",
+   "Thrift Store": "$85 ",
+   "Department Store": "$190 ",
+   "Designer": "$310 "
+ },
+ {
+   "Net Monthly Income": "$2,500 - $2,799",
+   "Thrift Store": "$80 ",
+   "Department Store": "$180 ",
+   "Designer": "$270 "
+ },
+ {
+   "Net Monthly Income": "$2,100 - $2,499",
+   "Thrift Store": "$70 ",
+   "Department Store": "$150 ",
+   "Designer": "$230 "
+ },
+ {
+   "Net Monthly Income": "$1,700 - $2,099",
+   "Thrift Store": "$55 ",
+   "Department Store": "$140 ",
+   "Designer": "$190 "
+ },
+ {
+   "Net Monthly Income": "$1,400 - $1,699",
+   "Thrift Store": "$50 ",
+   "Department Store": "$130 ",
+   "Designer": "$160 "
+ },
+ {
+   "Net Monthly Income": "$1,200 - $1,399",
+   "Thrift Store": "$35 ",
+   "Department Store": "$90 ",
+   "Designer": "$140 "
+ },
+ {
+   "Net Monthly Income": "$0 - $1,200",
+   "Thrift Store": "$30 ",
+   "Department Store": "$80 ",
+   "Designer": "$130 "
+ }
+]

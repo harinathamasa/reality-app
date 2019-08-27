@@ -20,8 +20,10 @@ export class AdminLoginComponent implements OnInit {
     this.adminService.login(admin.userName,admin.password).subscribe(res =>{
       this.result = res;
       if(this.result.loginMessage == 'successful'){
-        this.route.navigate(['admin/create']);
+        this.adminService.setLoginStatus(true);
+        this.route.navigate(['budgetSheet']);
       }else{
+        this.adminService.setLoginStatus(false);
         this.successMsg = 'Login failed';
         this.isSuccess = false;
       }

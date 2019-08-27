@@ -12,3 +12,9 @@ body{
 *:focus {
     outline: none !important;
 }
+
+.example-card {
+    max-width: 300px;
+    margin: 4px;
+    
+  }

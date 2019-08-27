@@ -1,0 +1,110 @@
+[
+ {
+   "Luxury": {
+      "PriviIege": "Cell Phone with Unlimited Texting"
+   },
+   "Cost Per Month": 50
+},
+ {
+   "Luxury": {
+      "PriviIege": "Prepaid Cell Phone"
+   },
+   "Cost Per Month": 40
+},
+ {
+   "Luxury": {
+      "PriviIege": "Internet High Speed (WIFI)"
+   },
+   "Cost Per Month": 40
+},
+ {
+   "Luxury": {
+      "PriviIege": "Cable"
+   },
+   "Cost Per Month": 40
+},
+ {
+   "Luxury": {
+      "PriviIege": "Netflix/Hulu"
+   },
+   "Cost Per Month": 12
+},
+ {
+   "Luxury": {
+      "PriviIege": "Nails"
+   },
+   "Cost Per Month": 30
+},
+ {
+   "Luxury": {
+      "PriviIege": "Barber Haircut"
+   },
+   "Cost Per Month": 20
+},
+ {
+   "Luxury": {
+      "PriviIege": "Salon Haircut and Style"
+   },
+   "Cost Per Month": 55
+},
+ {
+   "Luxury": {
+      "PriviIege": "Gym Membership"
+   },
+   "Cost Per Month": 30
+},
+ {
+   "Luxury": {
+      "PriviIege": "Dinner and a Movie (for two)"
+   },
+   "Cost Per Month": 60
+},
+ {
+   "Luxury": {
+      "PriviIege": "Buy/Rescue/Adopt a dog or cat"
+   },
+   "Cost Per Month": 280
+},
+ {
+   "Luxury": {
+      "PriviIege": "Professional Hockey Game (for two)"
+   },
+   "Cost Per Month": 30
+},
+ {
+   "Luxury": {
+      "PriviIege": "College Football Game (for two)"
+   },
+   "Cost Per Month": 140
+},
+ {
+   "Luxury": {
+      "PriviIege": "Professional Baseball game (for two)"
+   },
+   "Cost Per Month": 24
+},
+ {
+   "Luxury": {
+      "PriviIege": "Concert (for two)"
+   },
+   "Cost Per Month": 200
+},
+ {
+   "Luxury": {
+      "PriviIege": "Zoo & Aquarium Family Pack"
+   },
+   "Cost Per Month": 100
+},
+ {
+   "Luxury": {
+      "PriviIege": "Amusement Park Family Pack"
+   },
+   "Cost Per Month": 125
+},
+ {
+   "Luxury": {
+      "PriviIege": "All-inclusive Vacation Family"
+   },
+   "Cost Per Month": 1000
+}
+]

@@ -1,0 +1,16 @@
+<label id="example-radio-group-label">Pick your Clothing Choice</label>
+<mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="data.clothvalue">
+    <mat-radio-button class="example-radio-button" [value]="data.clothingInfo.thirftStore">
+        Thrift Store {{data.clothingInfo.thirftStore | currency:'USD':true}}
+    </mat-radio-button>
+    <mat-radio-button class="example-radio-button" [value]="data.clothingInfo.departmentStore">
+        Department Store {{data.clothingInfo.departmentStore | currency:'USD':true}}
+    </mat-radio-button>
+    <mat-radio-button class="example-radio-button" [value]="data.clothingInfo.designer">
+        Designer {{data.clothingInfo.designer | currency:'USD':true}}
+    </mat-radio-button>
+</mat-radio-group>
+<div mat-dialog-actions>
+    <button md-raised-button (click)="onConfirm(data.clothvalue)" cdkFocusInitial>CONFIRM</button>&nbsp;
+    <button md-raised-button (click)="onCloseCancel()">CANCEL</button>
+</div>

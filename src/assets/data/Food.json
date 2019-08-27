@@ -1,0 +1,58 @@
+[
+ {
+   "Family Size": "1 Adult",
+   "Thrifty (Aldi)": 184,
+   "Low-Cost (Walmart)": 238,
+   "Moderate (Giant Eagle)": "298",
+   "Liberal (Whole Foods)": "366"
+ },
+ {
+   "Family Size": "1 Adult, 1 Child",
+   "Thrifty (Aldi)": 339,
+   "Low-Cost (Walmart)": 443,
+   "Moderate (Giant Eagle)": "564",
+   "Liberal (Whole Foods)": "675"
+ },
+ {
+   "Family Size": "1 Adult, 2 Children",
+   "Thrifty (Aldi)": 441,
+   "Low-Cost (Walmart)": 574,
+   "Moderate (Giant Eagle)": "722",
+   "Liberal (Whole Foods)": "764"
+ },
+ {
+   "Family Size": "1 Adult, 3 Children",
+   "Thrifty (Aldi)": 543,
+   "Low-Cost (Walmart)": 705,
+   "Moderate (Giant Eagle)": "880",
+   "Liberal (Whole Foods)": "1,059"
+ },
+ {
+   "Family Size": "2 Adults",
+   "Thrifty (Aldi)": 383,
+   "Low-Cost (Walmart)": 488,
+   "Moderate (Giant Eagle)": "608",
+   "Liberal (Whole Foods)": "761"
+ },
+ {
+   "Family Size": "2 Adults, 1 Child",
+   "Thrifty (Aldi)": 503,
+   "Low-Cost (Walmart)": 650,
+   "Moderate (Giant Eagle)": "819",
+   "Liberal (Whole Foods)": "1,001"
+ },
+ {
+   "Family Size": "2 Adults, 2 Children  ",
+   "Thrifty (Aldi)": 605,
+   "Low-Cost (Walmart)": 781,
+   "Moderate (Giant Eagle)": "977",
+   "Liberal (Whole Foods)": "1,193"
+ },
+ {
+   "Family Size": "2 Adults, 3 Children",
+   "Thrifty (Aldi)": 707,
+   "Low-Cost (Walmart)": 912,
+   "Moderate (Giant Eagle)": "1,135",
+   "Liberal (Whole Foods)": "1,385"
+ }
+]

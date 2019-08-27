@@ -1,0 +1,42 @@
+[
+ {
+   "Title": "Cashier",
+   "Hours": {
+      "Week": 5
+   },
+   "Gross Income": 154,
+   "After-Tax Income": 108
+},
+ {
+   "Title": "Hotel Room Cleaning",
+   "Hours": {
+      "Week": 10
+   },
+   "Gross Income": 308,
+   "After-Tax Income": 217
+},
+ {
+   "Title": "Server",
+   "Hours": {
+      "Week": 15
+   },
+   "Gross Income": 462,
+   "After-Tax Income": 325
+},
+ {
+   "Title": "Bank Teller",
+   "Hours": {
+      "Week": 15
+   },
+   "Gross Income": 375,
+   "After-Tax Income": 264
+},
+ {
+   "Title": "Package Sorter",
+   "Hours": {
+      "Week": 20
+   },
+   "Gross Income": 616,
+   "After-Tax Income": 433
+}
+]

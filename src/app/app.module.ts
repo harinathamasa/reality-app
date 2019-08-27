@@ -1,3 +1,4 @@
+import { ClothingService } from './services/clothing.service';
 import { AdminService } from './admin-service.service';
 import { AuthGuardService } from './auth-guard.service';
 import { BrowserModule } from '@angular/platform-browser';
@@ -30,6 +31,19 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import { RealityDialogComponent } from './reality-dialog/reality-dialog.component';
 import { DialogexampleComponent } from './dialogexample/dialogexample.component';
+import { StatusComponent } from './categories/status/status.component';
+import { ClothingComponent } from './categories/clothing/clothing.component';
+import { EntertainmentComponent } from './categories/entertainment/entertainment.component';
+import { FoodComponent } from './categories/food/food.component';
+import { HousingComponent } from './categories/housing/housing.component';
+import { PublicTransportationComponent } from './categories/public-transportation/public-transportation.component';
+import { RentingComponent } from './categories/renting/renting.component';
+import { SecondJobComponent } from './categories/second-job/second-job.component';
+import { LifeInsuranceComponent } from './categories/life-insurance/life-insurance.component';
+import { PetInsuranceComponent } from './categories/pet-insurance/pet-insurance.component';
+import { ClothingDialogComponent } from './cat-dialog/clothing-dialog/clothing-dialog.component';
+import {MatRadioModule} from '@angular/material/radio';
+import { EntertainmentDialogComponent } from './cat-dialog/entertainment-dialog/entertainment-dialog.component';
 
 @NgModule({
   declarations: [
@@ -44,11 +58,24 @@ import { DialogexampleComponent } from './dialogexample/dialogexample.component'
     CarouselComponent,
     RealitycardComponent,
     RealityDialogComponent,
-    DialogexampleComponent
-  ],
+    DialogexampleComponent,
+    StatusComponent,
+    ClothingComponent,
+    EntertainmentComponent,
+    FoodComponent,
+    HousingComponent,
+    PublicTransportationComponent,
+    RentingComponent,
+    SecondJobComponent,
+    LifeInsuranceComponent,
+    PetInsuranceComponent,
+    ClothingDialogComponent,
+    EntertainmentDialogComponent
+    ],
   imports: [
     BrowserModule,
     MatDialogModule,
+    MatRadioModule,
     HttpClientModule,
     MatCardModule,
     MatStepperModule,
@@ -67,16 +94,17 @@ import { DialogexampleComponent } from './dialogexample/dialogexample.component'
       {path:'stepper',component:ExampleStepperComponent},
       {path:'home',component:HomepageComponent},
       {path:'login',component:LoginComponent},
-      {path:'budgetSheet',component:BudgetSheetComponent},
+      {path:'budgetSheet',component:BudgetSheetComponent},//,canActivate:[AuthGuardService]
       {path:'admin',component:AdminLoginComponent},
       {path:'admin/create',component:CreateEventComponent},
       {path:'carosel',component:CarouselComponent},
       {path:'card',component:RealitycardComponent},
-      {path:'box',component:RealityDialogComponent}
+      {path:'box',component:RealityDialogComponent},
+      {path:'dialog',component:ClothingDialogComponent}
     ])
   ],
-  providers: [AuthGuardService,UserService,AdminService],
+  providers: [AuthGuardService,UserService,AdminService,ClothingService],
   bootstrap: [AppComponent],
-  entryComponents: [DialogexampleComponent]
+  entryComponents: [DialogexampleComponent,ClothingDialogComponent]
 })
 export class AppModule { }

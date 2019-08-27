@@ -1,0 +1,37 @@
+[
+ {
+   "Face Amount": 25000,
+   "Female": 14.5,
+   "Male": 15
+ },
+ {
+   "Face Amount": 50000,
+   "Female": 17,
+   "Male": 18
+ },
+ {
+   "Face Amount": 75000,
+   "Female": 19.5,
+   "Male": 21
+ },
+ {
+   "Face Amount": 100000,
+   "Female": 22,
+   "Male": 24
+ },
+ {
+   "Face Amount": 125000,
+   "Female": 24.5,
+   "Male": 26
+ },
+ {
+   "Face Amount": 150000,
+   "Female": 27,
+   "Male": 30
+ },
+ {
+   "Face Amount": 175000,
+   "Female": 29.5,
+   "Male": 32
+ }
+]

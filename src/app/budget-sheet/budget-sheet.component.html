@@ -1,0 +1,91 @@
+<div class="col-md-12">
+    <form #f="ngForm" (ngSubmit)="save(f.value)">
+        <div class="form-group row">
+            <label for="occupation" class="col-sm-2 col-form-label">Occupation</label>
+            <div class="col-sm-4">
+                <input type="text" name="occupation" id="occupation" #occupation="ngModel" [(ngModel)]="user.occupation"
+                    class="form-control" placeholder="Occupation" required [readonly]="isReadOnly">
+                <div class="alert alert-danger" *ngIf="occupation.touched && occupation.invalid">This field is required.
+                </div>
+            </div>
+            <label for="creditScore" class="col-sm-2 col-form-label">Credit Score</label>
+            <div class="col-sm-4">
+                <input type="text" name="creditScore" id="creditScore" #creditScore="ngModel"
+                    [(ngModel)]="user.creditScore" class="form-control" placeholder="Credit Score" required
+                    [readonly]="isReadOnly" pattern="[0-9]*">
+                <div class="alert alert-danger" *ngIf="(creditScore.touched && creditScore.invalid)">Credit Score
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="annualIncome" class="col-sm-2 col-form-label">Annual Income</label>
+            <div class="col-sm-4">
+                <input type="text" name="annualIncome" id="annualIncome" #annualIncome="ngModel"
+                    [(ngModel)]="user.annualIncome" class="form-control" placeholder="Annual Income" required
+                    [readonly]="isReadOnly" pattern="[0-9]*">
+                <div class="alert alert-danger" *ngIf="annualIncome.touched && annualIncome.invalid">This field is
+                    required.
+                </div>
+            </div>
+            <label for="netMonthly" class="col-sm-2 col-form-label">Net Monthly</label>
+            <div class="col-sm-4">
+                <input type="text" name="netMonthly" id="netMonthly" #netMonthly="ngModel" [(ngModel)]="user.netMonthly"
+                    class="form-control" placeholder="Net Monthly" required [readonly]="isReadOnly" pattern="[0-9]*">
+                <div class="alert alert-danger" *ngIf="netMonthly.touched && netMonthly.invalid">Credit Score
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="children" class="col-sm-2 col-form-label">Number of Children</label>
+            <div class="col-sm-4">
+                <input type="text" name="children" id="children" #children="ngModel" [(ngModel)]="user.children"
+                    class="form-control" placeholder="Children" required [readonly]="isReadOnly" pattern="[0-9]*">
+                <div class="alert alert-danger" *ngIf="children.touched && children.invalid">This field is required.
+                </div>
+            </div>
+            <label for="maritalStatus" class="col-sm-2 col-form-label">Marital Status</label>
+            <div class="col-sm-4">
+                <select name="maritalStatus" #maritalStatus="ngModel" [(ngModel)]="user.maritalStatus"
+                    id="maritalStatus" class="form-control" required [disabled]="isReadOnly">
+                    <option value=""></option>
+                    <option *ngFor="let s of status" [value]="s.value">{{s.name}}</option>
+                </select>
+                <div class="alert alert-danger" *ngIf="maritalStatus.touched && maritalStatus.invalid">Marital Status is
+                    required</div>
+            </div>
+        </div>
+        <div id="submitButton" *ngIf="show"><button class="btn btn-primary" [disabled]="!f.valid">Proceed</button></div>
+    </form>
+
+
+    <div *ngIf="!show">
+        <div class="row justify-content-end">
+            <div>Total Budget: {{budgetLeft | currency:'USD':true }}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm" style="margin-top: 50px">
+                <app-clothing (clothingValue)='getClothingData($event)' [user]="user"></app-clothing>
+            </div>
+            <div class="col-sm" style="margin-top: 50px">
+                <app-entertainment (entertainmentValue)='getEntertainmentData($event)' [user]="user">
+                </app-entertainment>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm" style="margin-top: 50px">
+                <app-food (foodValue)='getFoodData($event)' [user]="user"></app-food>
+            </div>
+            <div class="col-sm" style="margin-top: 50px">
+                <app-housing (housingValue)='getHousingData($event)' [user]="user"></app-housing>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm" style="margin-top: 50px">
+                <app-life-insurance (lifeInsuranceValue)='getInsuranceData($event)' [user]="user"></app-life-insurance>
+            </div>
+        </div>
+    </div>
+</div>
